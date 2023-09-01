@@ -1,0 +1,137 @@
+﻿
+
+
+
+h2 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	font-style: italic;
+	font-variant: normal;
+}
+h1 {
+	font-family: "Franklin Gothic Heavy";
+	font-size: large;
+	font-weight: 500;
+	font-style: italic;
+	font-variant: normal;
+	color: #7b87d6;
+	text-decoration: underline;
+	padding: inherit;
+	margin: auto;
+}
+p {
+	font-family: "Arial Rounded MT Bold";
+	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	color: #FFFFFF;
+}
+
+.auto-style1 {
+	border-style: solid;
+	border-color: #1b1f34;
+	text-align: center;
+	background-color: #424570;
+}
+.auto-style2 {
+	font-family: "Franklin Gothic Medium";
+	color: #92adf7;
+	font-size: small;
+}
+.auto-style4 {
+	border-style: solid;
+	border-color: #1b1f34;
+	background-color: #424570;
+	text-align: left;
+	vertical-align: top;
+}
+.auto-style6 {
+	border-style: solid;
+	border-color: #1b1f34;
+	text-align: left;
+	background-color: #424570;
+	font-size: 36pt;
+	font-family: "Franklin Gothic Medium";
+	color: #92adf7;
+	font-style: italic;
+	font-weight: bold;
+}
+.auto-style7 {
+	font-size: x-large;
+	font-style: normal;
+}
+.auto-style8 {
+	border-style: solid;
+	border-color: #1b1f34;
+	text-align: center;
+	background-color: #424570;
+	font-size: 36pt;
+	font-family: "Franklin Gothic Medium";
+	color: #92adf7;
+	font-style: italic;
+	font-weight: bold;
+}
+.auto-style9 {
+	margin-left: 0px;
+}
+.auto-style10 {
+	border-style: solid;
+	border-color: #1b1f34;
+	background-color: #424570;
+	text-align: left;
+	vertical-align: top;
+	font-family: Bahnschrift;
+	color: #00A3CE;
+}
+.auto-style11 {
+	font-size: large;
+}
+.auto-style12 {
+	text-decoration: underline;
+	color: #cad7f9;
+}
+a {
+	color: #CAD7F9;
+}
+a:visited {
+	color: #CAD7F9;
+}
+a:active {
+	color: #CAD7F9;
+}
+a:hover {
+	color: #CAD7F9;
+}
+body {
+  background-image: url("images/background.png");
+  background-repeat: round;
+}
+.auto-style13 {
+	margin-left: 26px;
+}
+.auto-style14 {
+	margin-left: 70px;
+}
+.auto-style15 {
+	margin-left: 79px;
+}
+.auto-style16 {
+	margin-left: 52px;
+	margin-top: 0px;
+}
+body {
+  background-color: #424570;
+}
+  .meta-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .meta-tag img {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
