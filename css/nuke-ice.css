@@ -8,40 +8,43 @@ Nuke Ice  -  Revised 02/22
 
 /* Link Style */
 a.LINKurl:link {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 	font-weight: bold;
 }
 a.LINKurl:visited {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 	font-weight: bold;
 }
 a.LINKurl:active {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 	font-weight: bold;
 }
 a.LINKurl:hover {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 	font-weight: bold;
 }
 a:link {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 }
 a:visited {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 }
 a:active {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
 }
 a:hover {
-	color: #A5B0C1;
-	text-decoration: underline;
+	color: #D3DAE4;
+	text-decoration: none;
+	text-shadow: 0 0 1px #2A63AB, 0 0 18px #2A63AB;
+	-webkit-animation: text-animate 0.5s;
+    animation: text-animate 0.5s;
 }
 /* Body & Containers */
 body {
@@ -141,7 +144,7 @@ body {
 	padding: 0px;
 	margin-top: 90px;
 	margin-left: 74px;
-	color: #6A7C98;
+	color: #8292A8;
 	float: left;
 }
 #foot-Marquee {
@@ -151,7 +154,7 @@ body {
 	position: relative;
 	overflow: hidden;
 	text-decoration: none;
-	color: #6A7C98;
+	color: #8292A8;
 	float: left;
 	margin-left: 145px;
 	margin-top: 29px;
@@ -165,7 +168,7 @@ body {
 	padding: 0px;
 	margin-top: 92px;
 	text-decoration: none;
-	color: #6A7C98;
+	color: #8292A8;
 	margin-right: 73px;
 	float: right;
 	text-align: center;
@@ -221,7 +224,7 @@ body {
 	position: relative;
 	overflow: hidden;
 	text-decoration: none;
-	color: #6A7C98;
+	color: #8292A8;
 	text-align: center;
 }
 .NavCal {
@@ -285,7 +288,7 @@ body {
 	position: relative;
 	overflow: hidden;
 	text-decoration: none;
-	color: #6A7C98;
+	color: #8292A8;
 	text-align: left;
 }
 .CntHeadInfo {
@@ -310,15 +313,15 @@ body {
 .month {
 	background-color: #1B222C;
 	font: bold;
-	color: #6A7C98;
+	color: #8292A8;
 }
 .daysofweek {
 	background-color: #1B222C;
 	font: bold;
-	color: #6A7C98;
+	color: #8292A8;
 }
 .days {
-	color: #6A7C98;
+	color: #8292A8;
 	background-color: #1B222C;
 	padding: 2px;
 }
@@ -339,7 +342,7 @@ body {
 	margin: 0;
 }
 .nav-menu li {
-	color: #6A7C98;
+	color: #8292A8;
 	text-decoration: none;
 	text-align: left;
 	padding: 0px;
@@ -347,7 +350,7 @@ body {
 }
 .nav-menu li a {
 	line-height: 140%;
-	color: #6A7C98;
+	color: #8292A8;
 	text-decoration: none;
 	text-align: left;
 }
@@ -356,4 +359,16 @@ body {
 	color: #D3DAE4;
 	text-decoration: none;
 	text-align: left;
+}
+* {
+  cursor: url('../theme/Pointer1.cur'), auto !important;
+}
+
+@-webkit-keyframes text-animate {
+    0%   {text-shadow: 0px 0px 5px #888888;}
+    100%  {text-shadow:0}
+}
+@keyframes text-animate {
+    0%   {text-shadow: 0px 0px 5px #888888;}
+    100%  {text-shadow: 0}
 }
